@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@300;500;700&display=swap');
+.{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 2rem;
+    font-family: 'League Spartan', sans-serif;
+}
+.section1{
+    display: flex;
+    margin-bottom: 2rem;
+    place-content: space-between;
+    color: rgb(81, 7, 81);
+}
+.subsec1{
+    flex-basis: 28%;
+}
+.value{
+ font-size: 4rem; 
+ margin-bottom: 2rem;  
+ font-weight: 900;
+}
+.provide{
+    opacity: 0.6;
+}
+.review{
+    background-color: rgb(240, 195, 240);
+    padding: 0.5rem 2rem;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+}
+.section2{
+    display: flex;
+}
+.card{
+    margin-right: 2rem;
+    /* flex-basis: 28%; */
+    background-color: rgb(81, 7, 81);
+    color: white;
+    margin: 2rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    border: 2rem;
+}
+.avatar{
+    border-radius: 50%;
+}
+.innercard{
+     display: flex;
+     
+}
+.pona{
+    margin-top: 1.5rem;
+    margin-left: 1rem;
+}
+.position{
+    color: rgba(236, 72, 236, 0.859) ;
+
+}
